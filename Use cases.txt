@@ -1,0 +1,35 @@
+Use case 1: Setuping system
+
+- The user provide the tax identification number TIN and select whether its is monthly or quarterlt VAT payer,
+if these data are not set yet, or update it.
+
+class Company [singleton] - by Information expert pattern
++setup(Int,Booolean)
+
+
+Use case 2: Importing XML
+
+- User extract received and issued invoices from his account on E-invoicing system and import them.
+
+class Controller [singleton] - by Controller pattern
++readXMLFile(XML)
+
+
+Use case 3: Getting defered VAT list
+
+- User request information on defered VAT invoices.
+
+class Controller [singleton] - by Controller pattern
++getDefered(Int)
+
+
+Use case 4: Generationg report prediction
+
+class Controller [singleton] - by Controller pattern
+
+- User generats VAT report prediction
++generatRepPred(Int)
+
+
+ 
+ 
