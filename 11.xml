@@ -1,0 +1,144 @@
+
+<ExportedData xmlns="http://www.taxservice.am/tp3/invoice/definitions">
+    <SignedData>
+        <Data>
+            <SignableData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Invoice" Version="1.0">
+                <User>KPMG</User>
+                <Type>3</Type>
+                <GeneralInfo>
+                    <InvoiceNumber>
+                        <Number>6349769888</Number>
+                        <Series>Ա</Series>
+                    </InvoiceNumber>
+                    <SupplyDate>2016-11-30+04:00</SupplyDate>
+                    <Procedure>2</Procedure>
+                    <DealInfo>
+                        <DealDate>2015-05-14+04:00</DealDate>
+                        <DealNumber>T/009/15</DealNumber>
+                    </DealInfo>
+                    <AdditionalData>Հանձնման-ընդունման ակտ հր.19, 30.11.2016, ծառայություններ նոյեմբեր ամսվա համար</AdditionalData>
+                </GeneralInfo>
+                <SupplierInfo>
+                    <VATNumber>02529689/1</VATNumber>
+                    <Taxpayer>
+                        <TIN>02529689</TIN>
+                        <Name>«ՔԵՅ-ՓԻ-ԷՄ-ՋԻ ԱՐՄԵՆԻԱ» Փակ բաժնետիրական ընկերություն (ՓԲԸ)</Name>
+                        <Address>ԵՐԵՎԱՆ Վ.Սարգսյան փողոց 26/1</Address>
+                        <BankAccount>
+                            <BankName>Էյչ-Էս-Բի-Սի Բանկ</BankName>
+                            <BankAccountNumber>001-021609-001</BankAccountNumber>
+                        </BankAccount>
+                    </Taxpayer>
+                </SupplierInfo>
+                <BuyerInfo>
+                    <Taxpayer>
+                        <TIN>01574543</TIN>
+                        <Name>ՄՈՆԻՏԻՍ Փակ բաժնետիրական ընկերություն (ՓԲԸ)</Name>
+                        <Address>ք. Երևան, Ալեք Մանուկյան 9</Address>
+                        <TinNotRequired>false</TinNotRequired>
+                    </Taxpayer>
+                </BuyerInfo>
+                <GoodsInfo>
+                    <Good>
+                        <Description>Հարկային եւ իրավաբանական ծառայություններ 2016թ. նոյեմբեր ամսվա համար</Description>
+                        <Unit></Unit>
+                        <Amount>1.0</Amount>
+                        <PricePerUnit>283000.0</PricePerUnit>
+                        <Price>283000.0</Price>
+                        <VATRate>20.0</VATRate>
+                        <VAT>56600.0</VAT>
+                        <TotalPrice>339600.0</TotalPrice>
+                    </Good>
+                    <Total>
+                        <Price>283000.0</Price>
+                        <VAT>56600.0</VAT>
+                        <TotalPrice>339600.0</TotalPrice>
+                    </Total>
+                </GoodsInfo>
+            </SignableData>
+        </Data>
+        <Signature>
+            <SignatureType>PKCS7</SignatureType>
+            <SignatureValue>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</SignatureValue>
+        </Signature>
+        <Signature>
+            <SignatureType>PKCS7</SignatureType>
+            <SignatureValue>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</SignatureValue>
+        </Signature>
+        <InvoiceMetadata>
+            <SubmissionDate>2016-12-08T11:19:15.010+04:00</SubmissionDate>
+            <CoSignDate>2016-12-16T17:27:30.424+04:00</CoSignDate>
+        </InvoiceMetadata>
+    </SignedData>
+    <SignedData>
+        <Data>
+            <SignableData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Invoice" Version="1.0">
+                <User>mmkrtchi</User>
+                <Type>3</Type>
+                <GeneralInfo>
+                    <InvoiceNumber>
+                        <Number>4210214929</Number>
+                        <Series>Ա</Series>
+                    </InvoiceNumber>
+                    <SupplyDate>2016-11-30+04:00</SupplyDate>
+                    <Procedure>2</Procedure>
+                    <DealInfo/>
+                    <AdditionalData>{"#",b66fce8c-a030-4906-89c6-db40d78acdd7,387:be5728924a333e0a11e6bd2601f42fd4}</AdditionalData>
+                </GeneralInfo>
+                <SupplierInfo>
+                    <VATNumber>01511187/1</VATNumber>
+                    <Taxpayer>
+                        <TIN>01511187</TIN>
+                        <Name>«ՀԱՅԱՍՏԱՆԻ ԱՄԵՐԻԿՅԱՆ ՀԱՄԱԼՍԱՐԱՆ» ՀԻՄՆԱԴՐԱՄ Հիմնադրամ</Name>
+                        <Address>ԵՐԵՎԱՆ ԲԱՂՐԱՄՅԱՆ 40 -</Address>
+                        <BankAccount>
+                            <BankName>Էյչ-Էս-Բի-Սի բանկ Հայաստան ՓԲԸ</BankName>
+                            <BankAccountNumber>217001-006402-001</BankAccountNumber>
+                        </BankAccount>
+                    </Taxpayer>
+                </SupplierInfo>
+                <BuyerInfo>
+                    <Taxpayer>
+                        <TIN>01574543</TIN>
+                        <Name>ՄՈՆԻՏԻՍ Փակ բաժնետիրական ընկերություն (ՓԲԸ)</Name>
+                        <Address>ք. Երևան, Ալեք Մանուկյան 9</Address>
+                        <BankAccount>
+                            <BankName>Էյչ-Էս-Բի-Սի բանկ Հայաստան ՓԲԸ</BankName>
+                            <BankAccountNumber>007-025935-001</BankAccountNumber>
+                        </BankAccount>
+                        <TinNotRequired>false</TinNotRequired>
+                    </Taxpayer>
+                </BuyerInfo>
+                <GoodsInfo>
+                    <Good>
+                        <Description>Հեռախոսային խոսակցությունների փոխհատուցում 2016թ. նոյեմբեր ամսվա համար</Description>
+                        <Unit>ամիս</Unit>
+                        <Amount>1.0</Amount>
+                        <PricePerUnit>9614.2</PricePerUnit>
+                        <Price>9614.2</Price>
+                        <VATRate>20.0</VATRate>
+                        <VAT>1922.8</VAT>
+                        <TotalPrice>11537.0</TotalPrice>
+                    </Good>
+                    <Total>
+                        <Price>9614.17</Price>
+                        <VAT>1922.83</VAT>
+                        <TotalPrice>11537.0</TotalPrice>
+                    </Total>
+                </GoodsInfo>
+            </SignableData>
+        </Data>
+        <Signature>
+            <SignatureType>PKCS7</SignatureType>
+            <SignatureValue>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</SignatureValue>
+        </Signature>
+        <Signature>
+            <SignatureType>PKCS7</SignatureType>
+            <SignatureValue>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</SignatureValue>
+        </Signature>
+        <InvoiceMetadata>
+            <SubmissionDate>2016-12-08T16:23:40.756+04:00</SubmissionDate>
+            <CoSignDate>2016-12-16T17:27:28.032+04:00</CoSignDate>
+        </InvoiceMetadata>
+    </SignedData>
+</ExportedData>
